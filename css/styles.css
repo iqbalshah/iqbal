@@ -1,0 +1,687 @@
+body{
+	background-color:#E9E9E9;
+}
+
+#formWrap {
+	width:720px;
+	margin-top:32px;
+	margin-left:32px;
+	background:#FFF;
+	border: 1px solid #F1F1F1;
+	
+	-moz-border-radius: 20px;
+	-moz-box-shadow: 2px 2px 5px #999; 
+	
+	-wekit-border-radius: 20px;
+	-webkit-box-shadow: 2px 2px 5px #999; 
+	
+	padding: 16px 10px 40px;
+	
+	overflow: auto; /* auto expand vertically*/
+	
+	
+}
+.table {
+	border: solid 2px #000000;
+	/* margin: auto; */
+	padding: 5px;
+	height: 200px;
+}
+
+.heading {	    
+	font-size: 16px;	
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	float: left;
+	background-color: #EEEEEE;
+	width: 85px;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+#formWrap #form {
+	border-top: 1px solid #EEE;
+	width: 720px;
+	/*height: auto;*/
+}
+
+#form .row {
+	border-bottom: 1px dotted #EEE;
+	display: block;
+	line-height: 38px;
+	padding: 24px 0px;
+	width: 100%;	
+}
+
+#form .row .label {	
+    /*border: .2em solid #900; */
+	font-size: 16px;	
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 180px;
+	text-align: right;
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+	background-color: #EEEEEE;
+}
+
+#form .row .input {
+	/* border: .2em solid #900;*/
+	float: left;
+	/* margin-right: 10px; */
+	width: 450px;
+	background-color: #EEEEEE;
+	/*
+	padding-top: 10px;
+	padding-bottom: 10px;
+		*/
+	overflow: auto;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+
+.detail{
+	width: 260px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 7px 8px;
+	margin: 0;
+}
+
+
+
+.mess{
+	width: 450px;
+	max-width: 450px;
+	height: 280px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+#form .row .context {
+	color: #999;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 200px;
+	float: left;
+}
+
+/* Button Styles */
+.sbutton{
+	border:hidden;
+		background-image: url(../images/button.jpg);
+		background-repeat:no-repeat;
+		width:100px;
+		height:30px;
+		color:#FFF;
+		font-weight:bold;
+}
+
+.spbutton{
+	    border:hidden;
+		background-image: url(../images/spbutton.png);
+		background-repeat:no-repeat;
+		width:30px;
+		height:30px;
+		color:#FFF;
+		font-weight:bold;
+}
+
+.sbutton:hover{
+	border:hidden;
+		background-image: url(../images/buttonh.jpg);
+		background-repeat:no-repeat;
+		width:100px;
+		height:30px;
+		color:#000;
+		cursor:pointer;
+		font-weight:bold;
+}
+
+.spbutton:hover{
+	    border:hidden;
+		background-image: url(../images/spbuttonh.png);
+		background-repeat:no-repeat;
+		width:30px;
+		height:30px;
+		color:#FFF;
+        cursor:pointer;
+		font-weight:bold;
+}
+
+
+/*
+#form #submit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-left: 200px;
+	color: #000;
+	text-shadow: 1px 1px 1px #999;
+	padding: 10px;
+	width:100px;
+	height:30px;
+}
+*/
+#chapterdiv{
+	/* visibility:hidden; */
+	
+}
+
+#subjectdiv{
+	/* width: 500px; */
+	/*width: 450px;
+	max-width: 450px;
+	height: 280px;*/
+	overflow: auto;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+
+#cls, #sub{
+	width:200px;
+	height: 38px;
+}
+
+
+/*   Quiz Question Styles  */
+div.pq_container {
+    position: relative;
+    min-height: 250px;
+}
+
+div.pq_qtn {
+    border: #094268 1px solid;
+    background-color: #D3DFE5;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #094268;
+    width: 478px;
+    min-height: 50px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+div.pq_opt_hld {
+    position: relative;
+    width: 500px;
+}
+
+.pq_opt_col1{
+    width: 245px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+.pq_opt_col2{
+    width: 245px;
+    float: left;
+    margin-left: 5px;
+}
+
+.pq_opt {
+    border: #82BEE3 1px solid;
+    background-color: #EAF0F4;
+    padding: 3px 5px;
+    font-size: 1.2em;
+    color: #094268;
+    margin: 0px 5px 10px 5px;
+    min-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+
+}
+
+.pq_opt_correct {
+    border: #03BB00 1px  dotted;
+    background-color: #C4F5C3;
+    padding: 3px 5px;
+    font-size: 1.2em;
+    color: #094268;
+    margin: 0px 5px 10px 5px;
+    min-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.pq_opt_correct span{
+   /* background: url('../images/correct.png') no-repeat;
+    width: 15px;
+    height: 15px;
+    padding-left: 20px;
+    */
+}
+
+.pq_opt_urrgt {
+    border: #03BB00 1px solid;
+    background-color: #C4F5C3;
+    padding: 3px 5px;
+    font-size: 1.2em;
+    color: #094268;
+    margin: 0px 5px 10px 5px;
+    min-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.pq_opt_urrgt span{
+    background: url('../images/correct.png') no-repeat;
+    width: 15px;
+    height: 15px;
+    padding-left: 20px;
+}
+
+.pq_opt_wrong {
+    border: #CB000A 1px dotted;
+    background-color: #F9CBCD;
+    padding: 3px 5px;
+    font-size: 1.2em;
+    color: #094268;
+    margin: 0px 5px 10px 5px;
+    min-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.pq_opt_wrong span{
+    background: url('../images/wrong.png') no-repeat;
+    width: 16px;
+    height: 16px;
+    padding-left: 20px;
+}
+
+
+.pq_opt:hover {
+    border: #094268 1px solid;
+    background-color: #D3DFE5;
+    padding: 3px 5px;
+    color: #094268;
+    cursor: pointer;
+    min-height: 35px;
+    margin: 0px 5px 10px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.opt_clicked {
+    border: #FF7A02 1px solid;
+    background-color: #FDE9D9;
+    padding: 3px 5px;
+    font-size: 1.2em;
+    color: #FF7A02;
+    margin: 0px 5px 10px 5px;
+    min-height: 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    
+}
+
+.opt_clicked:hover {
+    border: #FF7A02 1px solid;
+    background-color: #FDE9D9;
+    padding: 3px 5px;
+    font-size: 1.2em;
+    color: #FF7A02;
+    cursor: pointer;
+    min-height: 35px;
+    margin: 0px 5px 10px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+div.pq_qno {
+    font: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #094268;
+}
+
+div.pq_cat {
+    font: sans-serif;
+    font-size: 1.2em;
+    color: #545555;
+}
+
+div.pq_ft {
+    margin: 0px auto;
+    text-align: center;
+    clear: both;
+    width: 500px;
+}
+
+.pq_btn {
+    width: 100px;
+    height: 30px;
+    background: url(../images/button.jpg) no-repeat;
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 0px;
+    text-align: center;
+    color: #FFF;
+}
+
+.pq_btn a {
+    color: white;
+}
+
+.pq_btn a:hover {
+    color: black;
+}
+
+.pq_btnd {
+    width: 100px;
+    height: 30px;
+    background: url(../images/buttond.png) no-repeat;
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 0px;
+    text-align: center;
+    color: #FFF;
+}
+
+.pq_btn:hover {
+    background: url(../images/buttonh.jpg) no-repeat;
+    color: #000;
+    cursor: pointer;
+}
+
+div#pqtimebtn {
+    
+}
+
+div.headDisp {
+    background-color: #9AC7DA;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #094268;
+    margin-bottom: 5px;
+    
+}
+
+div.headDisp2 {
+    background-color: #9AC7DA;
+    border: black 1px solid;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #094268;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+div.divText {
+    width: 500px;
+    position: relative;
+}
+
+div#rankText,div#perageText,div#perileText {
+    float: left;
+    width: 150px;
+    background-color: #094268;
+    padding: 3px 0px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+div#rankText {
+    margin-left: 5px;
+}
+
+div#perileText {
+    margin-right: 5px;
+}
+
+
+div.divData {
+    width: 500px;
+    position: relative;
+}
+
+div#rankData,div#perageData,div#perileData {
+    float: left;
+    width: 146px;
+    background-color: #FDC49B;
+    padding: 30px 0px;
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+    border: #D65C04 2px solid;
+}
+
+div#rankData {
+    margin-left: 5px;
+}
+
+div#perileData {
+    margin-right: 5px;
+}
+
+div.listRows {
+    width: 448px;
+    margin: 5px 15px;
+    padding: 5px 0px 5px 20px;
+    position: relative;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #094268;
+    background-color: #C7E3EE;
+    border: #094268 1px solid;
+}
+
+div.listCols {
+    float: right;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #094268;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+
+
+/*****************************************/
+/*  Quiz PAnel styles */
+
+div.options_cnt{
+    width: 480px;
+    background-color: #DAE2ED;
+    margin: 5px 10px;
+    border: #094268 1px solid;
+    position: relative;
+}
+
+
+
+
+div.options_cnt .opt_input{
+    padding: 0px 25px;  
+    font-size: 1.3em;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+
+div.options_cnt .opt_tarea{
+    width: 400px;
+    height: 60px;
+    
+}
+
+div.options_cnt .opt_tarea textarea{
+    width: 400px;
+    height: 50px;
+    
+}
+
+
+
+
+div.spl_button{
+    background-color: #F0F0F2;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    border: #82bde4 1px solid;
+    display: inline;
+}
+
+
+
+div.spl_button:hover{
+    background-color: #F0F0C2;
+    border: #FE8005 1px solid;
+
+}
+
+div.ans_cnt{
+    padding: 20px;
+    position: relative;
+}
+
+div.ans_cnt .ans_col1 {
+    width: 150px;
+    float: left;
+}
+
+div.ans_cnt .ans_col2 {
+    width: 300px;
+    float: left;
+}
+
+div.ans_cnt .ans_col2 .sel_ans {
+    background-color: #DAE2ED;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border: #094268 1px solid;
+    position: relative;
+}
+
+.cat_ajax_status{
+    padding-left: 20px;
+    min-height: 16px;
+    color: #0063DC;
+}
+
+.cat_ajax_done{
+    background: url(../images/correct.png) no-repeat left;
+    padding-left: 20px;
+    min-height: 16px;
+    color: #038731;
+}
+
+.cat_ajax_error{
+    background: url(../images/wrong.png) no-repeat left;
+    padding-left: 20px;
+    min-height: 16px;
+    color: #AB031A;
+}
+
+.cat_ajax_loading{
+
+    background: url(../images/spinner.gif) no-repeat left;
+    padding-left: 20px;
+    min-height: 16px;
+    color: #0063DC;
+}
+
+option.active {
+    font-weight: bold;
+}
+
+#categorym option {
+    padding-left: 20px;
+}
+
+
+/**********************************Error Display Div  *****/
+div.errorDispCnt{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1000;
+}
+
+div.errorDispCnt div{
+    width: 500px;
+    margin: 0px auto;
+    z-index: 100;
+    background-color: #FFF;
+    border-left: #000 1px solid;
+    border-top: #000 1px solid;
+    border-right: #000 1px solid;
+}
+
+div.errorDispCnt div div{
+    padding: 10px 20px;
+    width: 80%;
+    border: none;
+}
+
+.errorDispDone{
+    background: url(../images/correct.png) no-repeat left;
+    min-height: 16px;
+    color: #038731;
+}
+
+.errorDispError{
+    background: url(../images/wrong.png) no-repeat left;
+    min-height: 16px;
+    color: #AB031A;
+}
+
+.errorDispLoading{
+    background: url(../images/spinner.gif) no-repeat left;
+    min-height: 16px;
+    color: #0063DC;
+}

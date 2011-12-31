@@ -1,0 +1,84 @@
+
+
+body { 
+
+margin-left: 5%; margin-right: 5%; 
+font-family: Verdana, sans-serif;
+color: darkblue;
+font-size: 12px; 
+}
+
+
+question  {
+	padding: 0;
+	border:0;
+	border-width=0;
+	border-style: solid;
+	border-color: lightgray;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-size: 12px; 
+
+
+
+TD {	
+	
+	
+	color: darkblue;
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+TABLE.report  {
+	padding: 0;
+	border:0;
+	border-width=0;
+	border-style: solid;
+	border-color: lightgray;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-size: 12px; 
+
+
+
+TD {	
+	
+	
+	color: darkblue;
+	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+ 
+ 
+div{
+	
+page-break-after: always;
+	
+
+}
+
+
+
+
+  
+
+th { padding: 3; font-family: sans-serif; background: rgb(222, 222, 222); color:black; FONT-SIZE: 12px;}
+
+  h1 { margin-left: -8%;}
+  h2,h4,h5,h6 {margin-left: -4%; }
+  h3{FONT-SIZE: 15px; margin-left: -4%; }
+ 
+ 

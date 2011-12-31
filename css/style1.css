@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mini_main{ width:502px}
+
+.main_heading_bg{ background-color:#eff6c5; padding:8px 10px; border-bottom:1px dashed #301414; border-top:1px dashed #301414; margin:10px 0}
+
+.main_heading{ font-family:"Georgia"; font-size:16px; color: #301414; font-weight:bold}
+
+.listing ul { padding:0px; margin:0px; padding-left:5px; list-style:none}
+.listing ul li{ padding:10px 0; border-bottom:1px solid #dedede } 
+
+.ques_links{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#000000; font-weight:bold}
+.ques_links a:link{ text-decoration:none;color:#000000; background-image:url(../images/bullet.gif); background-repeat:no-repeat; background-position:left center; padding-left:15px }
+.ques_links a:visited{ text-decoration:none;color:#000000; background-image:url(../images/bullet.gif); background-repeat:no-repeat; background-position:left center; padding-left:15px}
+.ques_links a:active{ text-decoration:none;color:#000000;  }
+
+.ques_links a:hover{ text-decoration:none; color:#5b6136;}
+
+.box_gb{ background-color:#f4f5ec; border:2px solid #eeede6; padding:10px; margin:10px 0}
+
+.left_colum{ float:left; padding-bottom:1px; width:107px; padding-right:5px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000000; }
+.left_colum .left{ padding-top:3px; float:left}
+
+.select_cat{font-family:Georgia, "Times New Roman", Times, serif; font-size:18px; color:#A0261C; font-weight:bold;}

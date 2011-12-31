@@ -1,0 +1,148 @@
+body{
+	background-color:#E9E9E9;
+}
+
+#formWrap {
+	width:720px;
+	margin-top:32px;
+	margin-left:32px;
+	background:#FFF;
+	border: 1px solid #F1F1F1;
+	
+	-moz-border-radius: 20px;
+	-moz-box-shadow: 2px 2px 5px #999; 
+	
+	-wekit-border-radius: 20px;
+	-webkit-box-shadow: 2px 2px 5px #999; 
+	
+	padding: 16px 10px 40px;
+	
+	overflow: auto; /* auto expand vertically*/
+	
+	
+}
+.table {
+	border: solid 2px #000000;
+	/* margin: auto; */
+	padding: 5px;
+	height: 200px;
+}
+
+.heading {	    
+	font-size: 16px;	
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	float: left;
+	background-color: #EEEEEE;
+	width: 85px;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+#formWrap #form {
+	border-top: 1px solid #EEE;
+	width: 720px;
+	/*height: auto;*/
+}
+
+#form .row {
+	border-bottom: 1px dotted #EEE;
+	display: block;
+	line-height: 38px;
+	padding: 24px 0px;
+	width: 100%;	
+}
+
+#form .row .label {	
+    /*border: .2em solid #900; */
+	font-size: 16px;	
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 180px;
+	text-align: right;
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+	background-color: #EEEEEE;
+}
+
+#form .row .input {
+	/* border: .2em solid #900;*/
+	float: left;
+	/* margin-right: 10px; */
+	width: 450px;
+	background-color: #EEEEEE;
+	/*
+	padding-top: 10px;
+	padding-bottom: 10px;
+		*/
+	overflow: auto;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+
+.detail{
+	width: 260px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 7px 8px;
+	margin: 0;
+}
+
+
+
+.mess{
+	width: 450px;
+	max-width: 450px;
+	height: 280px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+#form .row .context {
+	color: #999;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 200px;
+	float: left;
+}
+
+#form #submit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-left: 200px;
+	color: #000;
+	text-shadow: 1px 1px 1px #999;
+	padding: 10px;
+}
+
+#chapterdiv{
+	/* visibility:hidden; */
+	
+}
+
+#subjectdiv{
+	/* width: 500px; */
+	/*width: 450px;
+	max-width: 450px;
+	height: 280px;*/
+	overflow: auto;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+
+#cls, #sub{
+	width:200px;
+	height: 38px;
+}
